@@ -102,6 +102,23 @@ button {
 	border-radius:20px;
 	color: #1F313C
 	
+
+}
+.Footer{
+	background: #273b47;
+
+}
+
+.contacto img {
+	display:block;
+}
+
+.contacto strong {
+	display:block;
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
 }
 /*.contenedor-Cartera{
 	margin-left: 370px;
