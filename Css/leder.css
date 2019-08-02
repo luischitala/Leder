@@ -1,3 +1,97 @@
-body{
-	background: peru;
+/**{
+/*	width: tamaño;
+	height: tamaño;
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 13px;
+	padding-left: 15px;
+	padding-bottom: 5px;*/
+	/*padding: 10px 13px 5px 15px;*/
+	/*margin: 10px;
+	margin-top: 10px;
+	margin-right: 13px;
+	margin-left: 15px;
+	margin-bottom: 5px;*/
+	/*margin: 10px 13px 5px 15px;
+	border: 2px solid red;*/
+}
+
+body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+.Titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 70px;
+	line-height: 40px;
+
+}
+.title-a{
+	
+	font-size: 35px;
+	margin-top: 0;
+}
+.title-b{
+	font-size: 24px;
+	margin-bottom:20px;
+	margin-left: 24px;
+}
+.Carteras {
+	color: #1F313C; 
+	
+}
+.Carteras h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+.Portada {
+	background-image: url(https://i.ibb.co/SxK8qvH/accessory-eyeglasses-eyewear-157888.jpg););
+	color: white;
+	padding: 20px;
+	
+}
+.Menu {
+	font-size: 24px;
+	display: inline-block;
+}
+.Menu li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.Logotipo {
+	display: inline-block;
+}
+.Portada button{
+	margin-bottom: 70px;
+}
+.Header{
+	width: 800px;
+	margin: auto;
+}
+.contenedor{
+	width: 800px;
+	margin: auto;
+}
+.Cartera img {
+	float: right;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.Cartera{
+	padding:10px;
+	margin: 10px;
+	overflow: hidden;
+	border:1px solid;
+	color: #1F313C
+}
+/*.contenedor-Cartera{
+	margin-left: 370px;
 }
