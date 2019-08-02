@@ -21,17 +21,26 @@ body {
 	margin: 0;
 }
 
-button {
+.button {
 	border-radius: 8px;
 	border:none;
 	background:;
+	margin-left: 70px;
+	font-size: 20px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 	
+}
+.button:hover{
+	background-color: #783D31; /* Green */
+  color: white;
 }
 .Titulo{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
 	margin-bottom: 0;
 	margin-top: 70px;
+	margin-left: 70px;
 	line-height: 40px;
 
 }
@@ -39,6 +48,7 @@ button {
 	
 	font-size: 35px;
 	margin-top: 0;
+	margin-left: 70px;
 }
 .title-b{
 	font-size: 24px;
@@ -55,6 +65,7 @@ button {
 }
 .Portada {
 	background-image: url(https://i.ibb.co/SxK8qvH/accessory-eyeglasses-eyewear-157888.jpg););
+	background-size: cover;
 	color: white;
 	padding: 20px;
 	
@@ -70,8 +81,23 @@ button {
 	margin-left: 30px;
 }
 
+.Menu li:before{
+content:"°"; 
+font-size: 20px;
+line-height: 20px;
+color:white;
+
+}
+
+.Menu a {
+	color:white;
+	text-decoration: none;
+
+}
+
 .Logotipo {
 	display: inline-block;
+	margin-left: 0px;
 }
 .Portada button{
 	margin-bottom: 70px;
@@ -81,7 +107,7 @@ button {
 	margin: auto;
 	position: relative;
 }
-.contenedor{
+.Carterascontenedor{
 	width: 800px;
 	margin: auto;
 }
@@ -104,9 +130,10 @@ button {
 	
 
 }
-.footer{
-	background: #273b47;
+.footercontenedor{
+	
 	padding: 50px 10px;
+
 
 }
 .contacto{
@@ -118,6 +145,8 @@ button {
 
 .contacto img {
 	display:block;
+	margin-left: 80px;
+	margin-top: 50px;
 }
 
 .contacto strong {
@@ -128,7 +157,7 @@ button {
 	text-decoration: none;
 	margin:10px 10px 10px 0;
 }
-.Footer.Contenedor{
+.footercontenedor{
 	display: flex;
 	justify-content: space-between;
 }
@@ -136,7 +165,11 @@ button {
 	display: flex;
 	width: 400px;
 	color: white;
-	padding: 50px 10px; 
+	padding: 50px 40px; 
+}
+.footer{
+	background: #273b47;
+	background-size: 1200px;
 }
 .col1,.col2{
 display: flex;
@@ -144,6 +177,7 @@ flex-direction: column;
 }
 .col1{
 	margin-right: 15px;
+	margin-left: -60px;
 }
 .col2 {
 	align-items: flex-start;
@@ -158,11 +192,25 @@ flex-direction: column;
 	margin-top: 10px;
 }
 
+
 table{
 	width: 100%;
 }
 th {
 	background: #273b47;
+	color:white;
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+}
+td {
+	padding: 20px;
+}
+table,td,th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+
 }
 /*.contenedor-Cartera{
 	margin-left: 370px;
