@@ -21,19 +21,30 @@ body {
 	margin: 0;
 }
 
-.button {
+button {
 	border-radius: 8px;
 	border:none;
 	background:;
+	cursor: pointer;
 	margin-left: 70px;
 	font-size: 20px;
 	-webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+ 	 transition-duration: 0.4s;
 	
 }
-.button:hover{
+button:hover{
 	background-color: #783D31; /* Green */
-  color: white;
+  	color: white;
+}
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position:relative;
+	margin-bottom: 50px;
+}
+.background{
+	background-image: url(https://i.ibb.co/SxK8qvH/accessory-eyeglasses-eyewear-157888.jpg););
+	background-size: cover;
 }
 .Titulo{
 	font-family: 'Montserrat', sans-serif;
@@ -132,7 +143,7 @@ color:white;
 }
 .footercontenedor{
 	
-	padding: 50px 10px;
+	padding: 30px 10px;
 
 
 }
@@ -161,16 +172,18 @@ color:white;
 	display: flex;
 	justify-content: space-between;
 }
+.footer{
+	background: #273b47;
+	
+}
+
 .Formulario{
 	display: flex;
 	width: 400px;
 	color: white;
-	padding: 50px 40px; 
+
 }
-.footer{
-	background: #273b47;
-	background-size: 1200px;
-}
+
 .col1,.col2{
 display: flex;
 flex-direction: column;
@@ -181,12 +194,30 @@ flex-direction: column;
 }
 .col2 {
 	align-items: flex-start;
+
+}
+.col2.button{
+	border-radius: 8px;
+	border:none;
+	background:;
+	cursor: pointer;
+	margin-left: 70px;
+	font-size: 20px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+ 	 transition-duration: 0.4s;
+}
 }
 .intereses label{
 	font-size: 12px;
 }
 .Formulario label, .sexo, .intereses {
 	margin-bottom: 10px;
+}
+input,textarea{
+	outline: 0;
+}
+input:focu, textarea:focus{
+	background:lightgray;
 }
 .sexo{
 	margin-top: 10px;
@@ -211,6 +242,10 @@ table,td,th{
 	border: 1px solid #273b47;
 	border-collapse: collapse;
 
+}
+.tabla{
+	margin: 50px 50px 50px 50px;
+	margin-bottom: 50px;
 }
 /*.contenedor-Cartera{
 	margin-left: 370px;

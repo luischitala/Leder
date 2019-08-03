@@ -7,7 +7,8 @@
 		<link rel="stylesheet" href="css/leder.css" >
 	</head>
 <body>
-<header id="Header" class="Header contenedor">
+	<div class="background" id="background">
+<header id="Header" class="Header contenedor ">
 		
 		<figure class="Logotipo"> <!-- logotipo --> 
 			<img src="https://i.ibb.co/PrKCGN3/logo.jpg" width="70" height="70" alt="Leder logotipo" >
@@ -26,6 +27,7 @@
 				</li>
 			</ul>
 		</nav>
+		</div>
 	</header>
 	<section class="tabla">
 		<div class="contenedor">
@@ -68,13 +70,15 @@
 		</section>
 	</table>
 		</div>
-	<footer class="footer ">
-		<div class="contenedor">
+	<footer class="footer">
+		<div class="footercontenedor">
 			<div class="contacto">
-			<img src="https://i.ibb.co/PrKCGN3/logo.jpg" width="70" height="70" alt="logotipo">
-			<a href="tel:+523318019871"><strong>Teléfono</strong> <span>3318019871</span></a>
+			<img src="https://i.ibb.co/PrKCGN3/logo.jpg" id="logotipo" width="100" height="100" alt="logotipo">
+			
 			<a href="mailto: itastetaco@leder.com"><strong>E-Mail </strong><span>itastetaco@leder.com</span></a>
-			</div>
+			<a href="tel:+523318019871"><strong>Teléfono</strong> <span>3318019871</span></a>
+			
+		
 			</div>
 			<form class="Formulario">
 			<div class="col1">
@@ -83,11 +87,11 @@
 			<label for="email">E-Mail</label>
 			<input type="email" required id="email" name="email" />
 			<div class="sexo">
-			<label for="mujer">
-			<input type="radio" id="mujer" name="sexo" value="mujer">Mujer
+				<label for="mujer">
+					<input type="radio" id="mujer" name="sexo" value="mujer">Mujer
 			</label>
-			<label for="hombre">
-			<input type="radio" id="hombre" name="sexo" value="hombre">Hombre
+				<label for="hombre">
+					<input type="radio" id="hombre" name="sexo" value="hombre">Hombre
 			</label>
 			</div>
 			<div class="intereses">
@@ -107,9 +111,9 @@
 			<div class="col2">
 				<label for="comentarios">Comentarios</label>
 				<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
-				<input type="submit" value="Enviar" name="">
+				<input type="submit" value="Enviar" id="button">
 			</div>
-		</form>
+			</form>
 		</div>
 	</footer>
 </body>
